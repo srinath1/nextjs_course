@@ -6,7 +6,6 @@ import { getFeaturedPosts } from '../lib/posts-util';
 import Head from 'next/head';
 
 function HomePage(props) {
-	console.log(props);
 	return (
 		<Fragment>
 			<Head>
