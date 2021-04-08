@@ -20,9 +20,7 @@ async function handler(req, res) {
 			.mongodb_password}@${process.env.mongodb_clustername}.vilrz.mongodb.net/${process.env
 			.mongodb_database}?retryWrites=true&w=majority`;
 		try {
-			client = await MongoClient.connect(
-				'mongodb+srv://nextjs:nextjs@cluster0.vilrz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
-			);
+			client = await MongoClient.connect(connectionString);
 		} catch (error) {
 			res.status(500).json({ message: 'Could not connect to database.' });
 			return;

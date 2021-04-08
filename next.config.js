@@ -6,7 +6,7 @@ module.exports = (phase) => {
 			env: {
 				mongodb_username: 'nextjs',
 				mongodb_password: 'nextjs',
-				mongodb_cluster: 'cluster0',
+				mongodb_clustername: 'cluster0',
 				mongodb_database: 'myFirstDatabaseDev'
 			}
 		};
@@ -15,7 +15,7 @@ module.exports = (phase) => {
 		env: {
 			mongodb_username: 'nextjs',
 			mongodb_password: 'nextjs',
-			mongodb_cluster: 'cluster0',
+			mongodb_clustername: 'cluster0',
 			mongodb_database: 'myFirstDatabaseProd'
 		}
 	};
