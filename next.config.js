@@ -7,7 +7,7 @@ module.exports = (phase) => {
 				mongodb_username: 'nextjs',
 				mongodb_password: 'nextjs',
 				mongodb_clustername: 'cluster0',
-				mongodb_database: 'myFirstDatabaseDev'
+				mongodb_database: 'nosite'
 			}
 		};
 	}
@@ -16,7 +16,7 @@ module.exports = (phase) => {
 			mongodb_username: 'nextjs',
 			mongodb_password: 'nextjs',
 			mongodb_clustername: 'cluster0',
-			mongodb_database: 'myFirstDatabaseProd'
+			mongodb_database: 'prosite'
 		}
 	};
 };
