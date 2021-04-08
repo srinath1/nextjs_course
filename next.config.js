@@ -4,8 +4,8 @@ module.exports = (phase) => {
 	if (phase === PHASE_DEVELOPMENT_SERVER) {
 		return {
 			env: {
-				mongodb_username: 'nextjs',
-				mongodb_password: 'nextjs',
+				mongodb_username: 'nextdev',
+				mongodb_password: 'password',
 				mongodb_clustername: 'cluster0',
 				mongodb_database: 'nosite'
 			}
@@ -13,8 +13,8 @@ module.exports = (phase) => {
 	}
 	return {
 		env: {
-			mongodb_username: 'nextjs',
-			mongodb_password: 'nextjs',
+			mongodb_username: 'nextprod',
+			mongodb_password: 'password',
 			mongodb_clustername: 'cluster0',
 			mongodb_database: 'prosite'
 		}
